@@ -1,0 +1,9 @@
+# CSCI 39548 Assignment 1 Git Ignore File
+
+# Course documents
+doc/
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
