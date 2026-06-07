@@ -1,14 +1,18 @@
 # CSCI 39548 Assignment 1: Personal Portfolio Website
 
-This repository contains my personal portfolio website, built as part of the CSCI 39548: Practical Web Development course at Hunter College.
+This is a personal portfolio website built for CSCI 39548: Practical Web Development at Hunter College.
 
-## 🚀 About the Project
-This project is built from scratch using clean, hand-written semantic HTML5 and vanilla CSS. It features a fully responsive design compatible with both desktop and mobile viewports, including:
-*   **Semantic Layout:** Dedicated `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` elements.
-*   **Modern Aesthetics:** A dark mode glassmorphism layout, clean typography, and interactive components (navigation links, skill lists, project cards, and a validated contact form).
-*   **Git Workflow:** Implemented using a branch-driven development model, incremental staging, and pull request reviews.
+The page includes:
 
-## 🛠️ Tech Stack
-*   HTML5
-*   CSS3 (Variables, Flexbox, Grid, Media Queries)
-*   Git & GitHub
+* A header with navigation links
+* An about section
+* A skills section
+* A projects section
+* A contact section
+* Responsive styling for smaller screens
+
+## Tech Stack
+
+* HTML5
+* CSS3
+* Git and GitHub
