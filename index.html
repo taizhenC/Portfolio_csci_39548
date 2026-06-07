@@ -3,35 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Portfolio of Taizhen Cheung - Student and Web Developer at Hunter College. Check out my projects, skillset, and contact info.">
+    <meta name="description" content="Personal portfolio of Taizhen Cheung, a Computer Science student at Hunter College.">
     <title>Taizhen Cheung</title>
-    <!-- Clean, classic typography using Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Main Header & Navigation -->
+    <!-- Header and navigation links -->
     <header class="header">
         <div class="header-container">
             <a href="#" class="logo">Taizhen Cheung</a>
-            <nav class="nav">
+            <nav>
                 <ul class="nav-list">
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Main Content -->
     <main>
-
-        <!-- Hero Section -->
+        <!-- Hero section with name, intro, buttons, and photo -->
         <section id="hero" class="hero-section">
             <div class="hero-container">
                 <div class="hero-content">
@@ -44,113 +37,86 @@
                     </div>
                 </div>
                 <div class="hero-image-wrapper">
-                    <img src="assets/5d978431283ab999a49b73c752716005517455.jpg" alt="Taizhen Cheung - Profile Picture" class="hero-avatar">
+                    <img src="assets/5d978431283ab999a49b73c752716005517455.jpg" alt="Taizhen Cheung profile picture" class="hero-avatar">
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
+        <!-- About section with a short personal description -->
         <section id="about" class="about-section">
             <div class="section-container">
                 <div class="section-header">
                     <h2 class="section-title">About Me</h2>
-                    <div class="section-line"></div>
                 </div>
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p class="about-highlight">I am currently pursuing my Computer Science degree at Hunter College, City University of New York.</p>
-                        <p>My interest in web development started with curiosity about how the modern web operates behind the scenes. This course has given me the opportunity to dive deep into front-end fundamentals, focusing on how to construct clean, accessible code without relying on bloated templates or frameworks.</p>
-                        <p>When I'm not coding or studying for classes, I enjoy exploring new technologies, refining my command-line workflows, and working on small personal coding challenges to improve my problem-solving skills.</p>
-                    </div>
+                <div class="about-text">
+                    <p class="about-highlight">I am currently pursuing my Computer Science degree at Hunter College, City University of New York.</p>
+                    <p>My interest in web development started with curiosity about how the modern web operates behind the scenes. This course has given me the opportunity to practice front-end fundamentals and write clean, accessible code.</p>
+                    <p>When I'm not coding or studying for classes, I enjoy exploring new technologies and working on small personal coding challenges to improve my problem-solving skills.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
+        <!-- Skills section listing what I am learning -->
         <section id="skills" class="skills-section">
             <div class="section-container">
                 <div class="section-header">
                     <h2 class="section-title">My Skills</h2>
-                    <div class="section-line"></div>
                 </div>
-                <p class="skills-intro">Here are the key tools and languages I have been learning and working with throughout my coursework:</p>
-                
-                <!-- Meaningful list for the skills layout -->
+                <p class="skills-intro">Here are the main tools and languages I have been learning in my coursework:</p>
                 <ul class="skills-list">
                     <li class="skill-card">
-                        <div class="skill-icon">📄</div>
-                        <h3 class="skill-name">HTML5</h3>
-                        <p class="skill-desc">Writing semantic, structured, and search-engine-friendly markup to ensure accessibility and standards-compliant layouts.</p>
+                        <h3>HTML5</h3>
+                        <p>Writing semantic, structured markup for accessible web pages.</p>
                     </li>
                     <li class="skill-card">
-                        <div class="skill-icon">🎨</div>
-                        <h3 class="skill-name">CSS3</h3>
-                        <p class="skill-desc">Designing layouts with Flexbox and Grid, using custom properties/variables, and crafting fluid media queries for mobile-friendly viewports.</p>
+                        <h3>CSS3</h3>
+                        <p>Using layout, spacing, colors, and media queries to make pages responsive.</p>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <!-- Projects Section -->
+        <!-- Projects section with a link to my GitHub project -->
         <section id="projects" class="projects-section">
             <div class="section-container">
                 <div class="section-header">
                     <h2 class="section-title">Projects</h2>
-                    <div class="section-line"></div>
                 </div>
                 <div class="projects-grid">
-                    <!-- Project 1 -->
                     <article class="project-card">
-                        <div class="project-preview">
-                            <span class="preview-icon">📊</span>
-                        </div>
-                        <div class="project-content">
-                            <span class="project-category">Web Development</span>
-                            <h3 class="project-title">Weather_App</h3>
-                            <p class="project-description">A modern, responsive weather application built with React and Node.js that provides real-time weather data and forecasts. The app features a clean Material UI interface and supports both guest browsing and user authentication for personalized experiences.</p>
-                            <a href="https://github.com/taizhenC/Weather_App" target="_blank" rel="noopener noreferrer" class="project-link">View Repository →</a>
-                        </div>
-
+                        <span class="project-category">Web Development</span>
+                        <h3 class="project-title">Weather_App</h3>
+                        <p class="project-description">A responsive weather application built with React and Node.js that provides weather data and forecasts.</p>
+                        <a href="https://github.com/taizhenC/Weather_App" target="_blank" rel="noopener noreferrer" class="project-link">View Repository</a>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <!-- Contact section with email, location, and GitHub -->
         <section id="contact" class="contact-section">
             <div class="section-container">
                 <div class="section-header">
                     <h2 class="section-title">Contact Me</h2>
-                    <div class="section-line"></div>
                 </div>
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h3>Get in touch</h3>
-                        <p>If you have any questions, feedback about my projects, or just want to connect, feel free to send me a message through the form or email me directly.</p>
-                        <ul class="contact-methods">
-                            <li>
-                                <span class="method-icon"></span>
-                                <span>tzhcheung@gmail.com</span>
-                            </li>
-                            <li>
-                                <span class="method-icon"></span>
-                                <span>New York, NY</span>
-                            </li>
-                            <li>
-                                <span class="method-icon"></span>
-                                <span>github.com/taizhenC</span>
-                            </li>
-                        </ul>
-                    </div>
-                    
-
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>If you have any questions, feedback about my projects, or just want to connect, feel free to contact me.</p>
+                    <ul class="contact-methods">
+                        <li><a href="mailto:tzhcheung@gmail.com">tzhcheung@gmail.com</a></li>
+                        <li>New York, NY</li>
+                        <li><a href="https://github.com/taizhenC" target="_blank" rel="noopener noreferrer">github.com/taizhenC</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer with copyright -->
     <footer class="footer">
         <div class="footer-container">
             <p>&copy; 2026 Taizhen Cheung</p>
         </div>
     </footer>
-
 </body>
 </html>
